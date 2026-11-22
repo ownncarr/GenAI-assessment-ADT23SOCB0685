@@ -1,0 +1,67 @@
+[
+  {
+    "input": "sample_project_report",
+    "model": "qwen2.5:7b",
+    "pages": 1,
+    "words": 113,
+    "counts": {
+      "easy": 5,
+      "medium": 5,
+      "hard": 5
+    },
+    "seconds": 48.8,
+    "status": "passed schema validation"
+  },
+  {
+    "input": "library_report",
+    "model": "qwen2.5:7b",
+    "pages": 1,
+    "words": 139,
+    "counts": {
+      "easy": 5,
+      "medium": 5,
+      "hard": 5
+    },
+    "seconds": 87.1,
+    "status": "passed schema validation"
+  },
+  {
+    "input": "irrigation_report",
+    "model": "qwen2.5:7b",
+    "pages": 1,
+    "words": 153,
+    "counts": {
+      "easy": 5,
+      "medium": 5,
+      "hard": 5
+    },
+    "seconds": 99.5,
+    "status": "passed schema validation"
+  },
+  {
+    "input": "expense_report",
+    "model": "qwen2.5:7b",
+    "pages": 1,
+    "words": 149,
+    "counts": {
+      "easy": 5,
+      "medium": 5,
+      "hard": 5
+    },
+    "seconds": 46.1,
+    "status": "passed schema validation"
+  },
+  {
+    "input": "attendance_report",
+    "model": "qwen2.5:7b",
+    "pages": 1,
+    "words": 152,
+    "counts": {
+      "easy": 5,
+      "medium": 5,
+      "hard": 5
+    },
+    "seconds": 41.9,
+    "status": "passed schema validation"
+  }
+]

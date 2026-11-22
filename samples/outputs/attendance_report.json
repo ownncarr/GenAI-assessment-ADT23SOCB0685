@@ -1,0 +1,68 @@
+{
+  "easy": [
+    {
+      "question": "What is the main problem that this project aims to solve?",
+      "answer": "The main problem is that calling student names consumes class time and leads to transcription mistakes. This can be time-consuming and prone to errors."
+    },
+    {
+      "question": "Who is the intended user of this system?",
+      "answer": "The intended user is the teacher. The system is designed to facilitate the teacher's attendance recording process."
+    },
+    {
+      "question": "What technologies are used in this project?",
+      "answer": "Flask is used for the server side. SQLite is used for storing student, class session, and attendance records."
+    },
+    {
+      "question": "What are the main features of the system?",
+      "answer": "The system records attendance by scanning student QR identifiers. It allows the teacher to open a session and export it as CSV."
+    },
+    {
+      "question": "What is the workflow of the system?",
+      "answer": "The teacher opens a session. The browser reads a QR identifier, submits it to the server, and displays whether attendance was recorded or already exists."
+    }
+  ],
+  "medium": [
+    {
+      "question": "What is the architecture of the system?",
+      "answer": "The architecture consists of a Flask server. It accepts identifiers from a browser scanner and stores them in SQLite."
+    },
+    {
+      "question": "What kind of input does the system accept?",
+      "answer": "The system accepts student QR identifiers. These identifiers are submitted through a browser scanner."
+    },
+    {
+      "question": "What is the workflow of the system from the teacher's perspective?",
+      "answer": "The teacher opens a session. Then the system records or confirms the attendance of the scanned identifier."
+    },
+    {
+      "question": "What are the responsibilities of the server component?",
+      "answer": "The server component accepts identifiers from the browser. It stores the identifiers and checks for duplicates."
+    },
+    {
+      "question": "How is the system tested?",
+      "answer": "The system is tested with manual validation. Valid identifiers, unknown identifiers, duplicate scans, and closed sessions are checked."
+    }
+  ],
+  "hard": [
+    {
+      "question": "Why was Flask chosen as the server technology?",
+      "answer": "Not specified in the report. Flask is lightweight and easy to set up, making it suitable for this prototype."
+    },
+    {
+      "question": "What evidence is provided to support the system's accuracy?",
+      "answer": "Evaluation was done through manual tests. The tests checked valid identifiers, unknown identifiers, duplicate scans, and closed sessions."
+    },
+    {
+      "question": "What are the current limitations of the system?",
+      "answer": "Static QR codes can be shared between students. The prototype does not verify physical presence or use facial recognition."
+    },
+    {
+      "question": "What scalability issues are not addressed in the report?",
+      "answer": "Deployment scalability has not been evaluated. The report does not discuss how the system would handle a large number of users."
+    },
+    {
+      "question": "What future work is proposed in the report?",
+      "answer": "Expiring session codes are proposed to reduce misuse. The report suggests evaluating the deployment scalability of the system."
+    }
+  ]
+}

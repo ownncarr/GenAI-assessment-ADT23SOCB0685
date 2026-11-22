@@ -1,0 +1,19 @@
+{
+  "browser": "Chromium via Playwright",
+  "model": "qwen2.5:7b",
+  "status": "passed",
+  "checks": [
+    "initial screen",
+    "disabled button without PDF",
+    "live Ollama generation",
+    "five expanders per tab",
+    "TXT download",
+    "JSON download",
+    "stale results cleared on upload change",
+    "blank PDF",
+    "corrupt PDF",
+    "missing Groq key",
+    "unavailable Ollama",
+    "no browser JS errors"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "easy": [
+    {
+      "question": "What is the main problem that the project aims to solve?",
+      "answer": "The project aims to solve the problem of wasting water by watering plants at fixed times when the soil is already moist. This is achieved by using a sensor-based system that activates the water pump only when the soil moisture falls below a configured threshold."
+    },
+    {
+      "question": "Who is the intended user of this prototype?",
+      "answer": "The intended user is someone who wants to efficiently manage water usage for their plants. This could be a homeowner, a gardener, or a small-scale farmer."
+    },
+    {
+      "question": "What technologies are used in the prototype?",
+      "answer": "The prototype uses an Arduino Uno for processing, a capacitive soil moisture sensor, and a relay to control a low-voltage pump. Serial output is used to display readings and pump state."
+    },
+    {
+      "question": "What are the main features of the prototype?",
+      "answer": "The main features are soil moisture sensing, threshold-based pump activation, and hysteresis to avoid rapid switching. The prototype also displays readings and pump state through serial output."
+    },
+    {
+      "question": "What is the objective of the project?",
+      "answer": "The objective is to build a sensor-based prototype that activates a water pump only when soil moisture falls below a configured threshold. This aims to reduce water waste by avoiding unnecessary watering."
+    }
+  ],
+  "medium": [
+    {
+      "question": "What is the architecture of the prototype?",
+      "answer": "The architecture involves an Arduino Uno reading a capacitive soil moisture sensor through an analog pin. A relay controls a low-voltage pump, and serial output displays readings and pump state."
+    },
+    {
+      "question": "What kind of input does the prototype use?",
+      "answer": "The prototype uses soil moisture readings from a capacitive sensor as input. These readings are compared against a calibrated threshold."
+    },
+    {
+      "question": "What is the workflow of the prototype?",
+      "answer": "The workflow involves reading soil moisture, comparing it to a threshold, and activating the pump if necessary. Hysteresis is used to avoid rapid switching between pump on and off states."
+    },
+    {
+      "question": "What are the responsibilities of the Arduino Uno in the prototype?",
+      "answer": "The Arduino Uno is responsible for reading the soil moisture sensor and controlling the pump through the relay. It also handles the serial output to display readings and pump state."
+    },
+    {
+      "question": "How is the prototype tested?",
+      "answer": "The prototype is tested using bench tests to verify that dry soil starts the pump and wet soil stops it. No measured water savings or field trial results are provided in the report."
+    }
+  ],
+  "hard": [
+    {
+      "question": "Why was an Arduino Uno chosen for the prototype?",
+      "answer": "The choice of Arduino Uno was not specified in the report. It is a common choice for such projects due to its ease of use and availability."
+    },
+    {
+      "question": "What evidence is provided to support the evaluation of the prototype?",
+      "answer": "The evaluation is supported by bench tests that verified the pump activation based on soil moisture readings. The report does not provide measured water savings or field trial results."
+    },
+    {
+      "question": "What are the current limitations of the prototype?",
+      "answer": "The current limitations include the calibration depending on soil type and the lack of internet connectivity or weather forecast integration. The prototype also has no reservoir level sensor to prevent running the pump dry."
+    },
+    {
+      "question": "What scalability issues might the prototype face?",
+      "answer": "The scalability of the prototype is not specified in the report. The current implementation is limited to a single soil moisture sensor and pump control."
+    },
+    {
+      "question": "What future work is proposed in the report?",
+      "answer": "The proposed future work includes adding a reservoir level sensor to prevent running the pump dry. This is not implemented in the current prototype."
+    }
+  ]
+}

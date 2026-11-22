@@ -1,0 +1,68 @@
+{
+  "easy": [
+    {
+      "question": "What is the main problem that the project aims to solve?",
+      "answer": "The main problem is that the college library records loans on paper, making it difficult to identify overdue books. This manual system can lead to errors and inefficiencies in managing loans."
+    },
+    {
+      "question": "Who is the intended user of the application?",
+      "answer": "The intended user is the librarian. The librarian will use the application to manage book loans and returns."
+    },
+    {
+      "question": "What technologies are used in the application?",
+      "answer": "Tkinter is used for the forms. SQLite is used for storing books, borrowers, and loans."
+    },
+    {
+      "question": "What are the main features of the application?",
+      "answer": "The application allows registering books, issuing loans, and recording returns. It also validates the input to prevent issuing a book that already has an active loan."
+    },
+    {
+      "question": "What is the workflow for issuing a book?",
+      "answer": "The librarian searches for a book identifier, selects a borrower, and confirms the loan. This process ensures that the correct borrower is assigned the book."
+    }
+  ],
+  "medium": [
+    {
+      "question": "How does the application handle the database architecture?",
+      "answer": "The application uses SQLite to store books, borrowers, and loans. This choice simplifies database management and integration with the application."
+    },
+    {
+      "question": "What kind of input does the application validate?",
+      "answer": "The application validates borrower identifiers to ensure they are not missing. It also prevents issuing a book that already has an active loan."
+    },
+    {
+      "question": "What is the process for returning a book in the application?",
+      "answer": "Returning a book closes the loan and makes the book available again. This action updates the database to reflect the return of the book."
+    },
+    {
+      "question": "What are the responsibilities of the librarian in the application?",
+      "answer": "The librarian is responsible for searching for books, selecting borrowers, and confirming loans. They also handle the return of books and ensure the system is updated accordingly."
+    },
+    {
+      "question": "How is the application tested?",
+      "answer": "Manual tests cover issuing, returning, and duplicate loan rejection. No numerical performance measurements are specified in the report."
+    }
+  ],
+  "hard": [
+    {
+      "question": "Why was Tkinter chosen as the GUI toolkit?",
+      "answer": "Tkinter was chosen because it provides forms for the application. The choice simplifies the development process and integration with the database."
+    },
+    {
+      "question": "What evidence is there to support the evaluation of the application?",
+      "answer": "Manual tests were conducted to cover issuing, returning, and duplicate loan rejection. However, no numerical performance measurements are specified."
+    },
+    {
+      "question": "What are the current limitations of the application?",
+      "answer": "The application supports only a single librarian on one computer. It does not have online reservations."
+    },
+    {
+      "question": "What scalability issues might arise with the current architecture?",
+      "answer": "The application is currently limited to a single librarian on one computer. There are no untested assumptions mentioned regarding scalability."
+    },
+    {
+      "question": "What future work is proposed for the application?",
+      "answer": "Future work includes adding barcode scanning and a browser interface. These features have not been implemented yet."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "easy": [
+    {
+      "question": "What is the main problem that the project aims to solve?",
+      "answer": "The main problem is that manual complaint logs are difficult to search and easy to lose. This makes it hard for students and staff to track and manage complaints efficiently."
+    },
+    {
+      "question": "Who is the intended user of the helpdesk app?",
+      "answer": "The intended users are students who can submit complaints. The app also benefits staff who can view and manage the tickets."
+    },
+    {
+      "question": "Which technologies were used in the implementation of the helpdesk app?",
+      "answer": "The technologies used include Python, Flask, SQLite, HTML, and Bootstrap. These were chosen for their simplicity and ease of integration."
+    },
+    {
+      "question": "What are the main features of the helpdesk app?",
+      "answer": "The main features are complaint submission, ticket ID generation, and ticket status tracking. These features help in managing and monitoring complaints more efficiently."
+    },
+    {
+      "question": "What is the objective of the project?",
+      "answer": "The objective is to create a simple web app to record, categorize, and track campus complaints. This aims to improve the efficiency of complaint management on campus."
+    }
+  ],
+  "medium": [
+    {
+      "question": "What is the architecture of the helpdesk app?",
+      "answer": "The architecture uses a web-based approach with Flask handling the routes. SQLite is used for storing the tickets, status, and creation time."
+    },
+    {
+      "question": "What kind of input does the helpdesk app accept from users?",
+      "answer": "The app accepts room number and complaint text as input from users. These inputs are used to generate a ticket ID and store the complaint details."
+    },
+    {
+      "question": "What is the workflow of the helpdesk app?",
+      "answer": "The workflow involves students submitting complaints, which are then stored in the database. The backend processes the submission and generates a ticket ID for each complaint."
+    },
+    {
+      "question": "What are the responsibilities of the backend in the helpdesk app?",
+      "answer": "The backend is responsible for handling routes and processing complaint submissions. It also stores the tickets, status, and creation time in the SQLite database."
+    },
+    {
+      "question": "How was the helpdesk app tested?",
+      "answer": "The app was tested manually by submitting five synthetic complaints. All five complaints were successfully saved in the database."
+    }
+  ],
+  "hard": [
+    {
+      "question": "Why was Flask chosen as the backend framework?",
+      "answer": "Flask was chosen for its simplicity and ease of integration. The project report does not specify the exact reasons for choosing Flask."
+    },
+    {
+      "question": "What evidence is provided to support the effectiveness of the helpdesk app?",
+      "answer": "The app was tested manually by submitting five synthetic complaints. All five complaints were successfully saved in the database."
+    },
+    {
+      "question": "What are the current limitations of the helpdesk app?",
+      "answer": "The app currently lacks a login system, real-time notifications, and a mobile app. These features are mentioned as future scope additions."
+    },
+    {
+      "question": "How scalable is the current implementation of the helpdesk app?",
+      "answer": "The scalability of the current implementation is not specified in the report. The app uses SQLite, which is a file-based database and may have limitations for very large datasets."
+    },
+    {
+      "question": "What future work is proposed for the helpdesk app?",
+      "answer": "Future work includes adding role-based authentication, email notifications, and analytics dashboards. These features are intended to enhance the functionality and usability of the app."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "easy": [
+    {
+      "question": "What is the main problem that this project aims to solve?",
+      "answer": "The main problem is that students find it difficult to track their spending across daily purchases. This can lead to poor financial management and lack of awareness about personal spending habits."
+    },
+    {
+      "question": "Who is the intended user of this dashboard?",
+      "answer": "The intended user is students. They are the primary target audience for this tool."
+    },
+    {
+      "question": "What technologies were used in the development of this dashboard?",
+      "answer": "Python, Streamlit, and pandas were used. These technologies were chosen for their ease of use and capability in data manipulation and visualization."
+    },
+    {
+      "question": "What is the main feature of the dashboard?",
+      "answer": "The main feature is the ability to summarize expenses by category and month. This allows users to easily track their spending patterns over time."
+    },
+    {
+      "question": "What is the input format for the dashboard?",
+      "answer": "The input format is a CSV file containing date, category and amount. This format is chosen for its simplicity and wide support in data handling."
+    }
+  ],
+  "medium": [
+    {
+      "question": "How does the dashboard validate the input data?",
+      "answer": "The app validates missing columns, invalid dates, and negative amounts. This ensures that the data is clean and usable before processing."
+    },
+    {
+      "question": "What is the workflow of the dashboard?",
+      "answer": "The workflow involves uploading CSV data, validating it, processing it with pandas, and rendering it with Streamlit. This allows for a seamless transition from raw data to visualized insights."
+    },
+    {
+      "question": "What are the responsibilities of the pandas component in the workflow?",
+      "answer": "The pandas component validates required columns, converts dates and amounts, groups expenses, and computes monthly totals. This step is crucial for preparing the data for visualization."
+    },
+    {
+      "question": "How is the dashboard tested?",
+      "answer": "The dashboard is tested by comparing hand-calculated totals with dashboard output for a small example CSV. This manual validation ensures the accuracy of the dashboard's calculations."
+    },
+    {
+      "question": "What is the current validation process for the dashboard?",
+      "answer": "The validation process checks for missing columns, invalid dates, and negative amounts. These checks ensure the data integrity before processing."
+    }
+  ],
+  "hard": [
+    {
+      "question": "Why was Streamlit chosen as the technology for rendering the dashboard?",
+      "answer": "Streamlit was chosen for its ease of use and capability in rendering interactive Python apps. This makes it suitable for quickly building and deploying the dashboard."
+    },
+    {
+      "question": "What evidence is provided to support the effectiveness of the dashboard?",
+      "answer": "The dashboard output was compared with hand-calculated totals for a small example CSV. This manual validation serves as evidence of the dashboard's accuracy."
+    },
+    {
+      "question": "What are the current limitations of the dashboard?",
+      "answer": "Files are processed in memory and data is not persisted. This means that data is lost when the application is closed."
+    },
+    {
+      "question": "How scalable is the current implementation of the dashboard?",
+      "answer": "The current implementation processes files in memory, which may limit scalability for larger datasets. The report does not specify the maximum file size that can be handled."
+    },
+    {
+      "question": "What future work is proposed for the dashboard?",
+      "answer": "Budget alerts and recurring payment detection are proposed as future improvements. These features are currently only in the proposal stage."
+    }
+  ]
+}
