@@ -142,4 +142,6 @@ PLAYWRIGHT_BROWSERS_PATH=.playwright python -m playwright install chromium
 PLAYWRIGHT_BROWSERS_PATH=.playwright python scripts/verify_ui.py
 ```
 
-See `TESTING.md` for executed checks, evidence and limitations. Screenshots can be used in the mini-project report.
+Verified on 22 November 2026: 36 automated checks passed, five sample PDFs each produced 15 questions split 5/5/5, and browser checks passed for uploads, result tabs, downloads, report changes and error handling. These checks validate application behavior and output structure; answers still require factual review against the report.
+
+Live generation records are in `samples/outputs/verification.json`. Browser verification and five genuine screenshots are in `screenshots/`. Screenshots can be used in the mini-project report.
